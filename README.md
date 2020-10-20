@@ -30,7 +30,7 @@ at klassen.Universiteit.main(Universiteit.java:16)
 - Implementeer de methode ```void setNaam(String naam)```. Via deze methode wordt de naam van een ```Student``` object bepaald.
 - Implementeer de methode ```String getNaam()```. Via deze methode kun je de naam van een ```Student``` object  opvragen.
 - Bekijk de klasse ```Universiteit```. Als het goed is zie je dat de klasse nu niet meer compileert. Dat komt doordat je de attribuut ```naam``` van een ```Student``` object rechtstreeks gebruikt. Dit veroorzaakt nu een compiler error.
-- Vervang het rechtstreekse gebruik van de attribuut ```naam``` door het gebruik van de getter en setter van het ```Student``` object 
+- Vervang het rechtstreekse gebruik van de attribuut ```naam``` door het gebruik van de get (accessor) methode en set (mutator) methode van het ```Student``` object 
 - Compileer en draai het programma opnieuw.
 - Er treedt nog steeds een ```null``` pointer exception op. Gebruik een ```if``` statement om dit te vermijden.
 
